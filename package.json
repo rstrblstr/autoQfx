@@ -8,6 +8,13 @@
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
     "start:nexrender": "ts-node apps/nexrender-server/server.ts"
   },
+  {
+    "workspaces": [
+      "apps/*",
+      "packages/*"
+    ]
+  },
+  "packageManager": "pnpm@9.10.0",
   "devDependencies": {
     "prettier": "^3.2.5",
     "turbo": "^2.1.2",
