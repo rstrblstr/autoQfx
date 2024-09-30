@@ -15,5 +15,10 @@
   "packageManager": "pnpm@8.15.6",
   "engines": {
     "node": ">=18"
+  },
+  "dependencies": {
+    "@nexrender/api": "^1.50.1",
+    "@nexrender/server": "^1.54.3",
+    "@nexrender/types": "^1.45.6"
   }
 }
